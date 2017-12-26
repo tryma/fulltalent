@@ -1,0 +1,2 @@
+python3 -m venv name #generate a python3 enviroment
+activate #activte the virtual enviroment program.
