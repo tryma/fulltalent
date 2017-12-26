@@ -9,7 +9,7 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 from dj_static import Cling
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "kids_tutorial.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "mainschool.settings")
 
 if 'DYNO' in os.environ:    # Running on Heroku
     from dj_static import Cling
